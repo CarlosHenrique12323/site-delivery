@@ -1,0 +1,116 @@
+*{margin: 0px;}
+
+.cabeçalho{
+    
+    
+    display: flex;
+    color: rgb(255, 255, 255);
+    
+
+}
+.cabeçalho{
+    display: grid;
+    grid-template-columns: 2fr 0.4fr 0.4fr 0.7fr 0.6fr 0.5fr 0fr  ;
+}
+
+
+#drop{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    z-index: -2;
+}
+.menus:hover #drop{
+    opacity: 1;
+    z-index: 2;}
+
+#cadastroli{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    z-index: -2;
+}
+.cadastro:hover #cadastroli{
+    opacity: 1;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.pap{
+    padding-left: 200px;
+}
+.home{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.menus{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.contate{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.somos{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.cadastro{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 200%;
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.container select,
+.container input[type="text"],
+.container input[type="number"],
+.container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.container textarea {
+    resize: vertical;
+    height: 100px;
+}
+.container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.pai{
+    padding-top: 100px;
+    padding-left: 800px;
+    color: rgb(0, 0, 0);
+}

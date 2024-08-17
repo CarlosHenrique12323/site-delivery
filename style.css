@@ -1,0 +1,92 @@
+*{margin: 0px;}
+
+.cabeçalho{
+    
+    
+    display: flex;
+    color: rgb(255, 255, 255);
+    
+
+}
+.cabeçalho{
+    display: grid;
+    grid-template-columns: 2fr 0.4fr 0.4fr 0.7fr 0.6fr 0.5fr 0fr  ;
+}
+
+
+#drop{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    z-index: -2;
+}
+.menus:hover #drop{
+    opacity: 1;
+    z-index: 2;}
+
+#cadastroli{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+    z-index: -2;
+}
+.cadastro:hover #cadastroli{
+    opacity: 1;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.home{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.menus{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.contate{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.somos{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.cadastro{
+    font-size: xx-large;
+    padding-top: 20px;
+}
+  
+.pad{
+    display: flex;
+}
+  
+.h1{
+    color: white;
+    padding-top: 200px;
+    padding-left: 50px;
+    
+}
+.img{
+    padding-top: 367px;
+}
+.p1{
+    font-size: xx-large;
+}
+.p2{
+    font-size: xx-large;
+}
+.p3{
+    font-size: xx-large;
+}
+
+
+
